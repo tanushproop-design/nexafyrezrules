@@ -3,8 +3,13 @@ import { Toaster } from 'react-hot-toast'
 import Providers from './providers'
 
 export const metadata = {
-  title: 'Discord Rules Bot Dashboard',
+  title: 'NF Rules Bot Dashboard',
   description: 'Manage and sync your Discord server rules from the web.',
+  icons: {
+    icon: '/logo.png',
+    shortcut: '/logo.png',
+    apple: '/logo.png',
+  },
 }
 
 export default function RootLayout({ children }) {
